@@ -26,6 +26,6 @@ ___Dark mode___
 - simple page layout, links in nav to seperate pages containing relevant information
 - blue/grey/purpleish? colour scheme
 - fit some animations in for the rubric. i'm thinking a glow effect coming from behind my photo
-- 
+- scratch the blue, grey, two shades of purple, black, white
 
 </p> 
