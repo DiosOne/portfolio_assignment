@@ -25,6 +25,8 @@ body{
     height: 10%;
     border-radius: 5px;
     column-gap: 5px;
+    position: sticky;
+    top: 2%;
 }
 
 .topnav > a{
