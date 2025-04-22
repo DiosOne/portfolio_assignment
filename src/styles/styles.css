@@ -1,7 +1,20 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color: #E0EBF5
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E0EBF5;
+    font-family: 'jetbrains-mono-pagefont', sans-serif;
+    font-size: 20px;
+}
+
+.jetbrains-mono-pagefont{
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .topnav{
@@ -18,10 +31,12 @@ body{
     background-color: #000000;
     padding: 10px;
     font-size: 30px;
+    font-weight: bold;
     color: #00FF0D;
     text-align: center;
     border-radius: 15px;
     text-decoration: none;
+    text-shadow: #e0ebf596 -2px 2px 4px;
 }
 a:hover {
     color: #E0EBF5;
@@ -38,20 +53,18 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: red;
+    color: black;
+    text-shadow: #8a00f3a1 -2px 2px 4px;
+    font-size: larger;
 }
-
-/*.container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: dodgerblue;
-  padding: 10px;
+.footer p {
+    background-color: #8A00F3;
+    color: #E0EBF5;
+    padding: 10px;
+    margin: 5px;
+    border: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.container > div {
-  background-color: #f1f1f1;
-  border: 1px solid black;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-  border-radius: 20px;
-}*/
