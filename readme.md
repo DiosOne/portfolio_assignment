@@ -28,4 +28,7 @@ ___Dark mode___
 - fit some animations in for the rubric. i'm thinking a glow effect coming from behind my photo
 - scratch the blue, grey, two shades of purple, black, white
 
-</p> 
+
+</p>
+
+[Link to my page] (https://dom-andrewartha-portfolio.netlify.app/contact)
