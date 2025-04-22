@@ -13,3 +13,19 @@ ___Light mode___
 
 ___Dark mode___
 - Bladerunner/Night City cyberpunk vibes, neons, chrome and black (this might not work)
+
+
+## css only carousel found here https://css-tricks.com/css-only-carousel/
+- didnt end up using this(a little complicated for me at this stage), its a great idea though.
+<br><br><br>
+
+# After misunderstanding the assignment, I'll start again from here.
+<p>Ignore the above, I'm big dumb. That will still stand for my eventual portfolio page (maybe. this might end up looking more professional)</p><br>
+<p><ins>Brief design brief.</ins>
+
+- simple page layout, links in nav to seperate pages containing relevant information
+- blue/grey/purpleish? colour scheme
+- fit some animations in for the rubric. i'm thinking a glow effect coming from behind my photo
+- 
+
+</p> 
