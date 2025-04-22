@@ -27,7 +27,7 @@ body{
     column-gap: 5px;
 }
 
-.topnav > a {
+.topnav > a{
     background-color: #170A1C;
     color: #ffffff;
     padding: 10px;
@@ -38,13 +38,13 @@ body{
     text-decoration: none;
     text-shadow: #feffffa9 -2px 2px 4px;
 }
-a:hover {
+a:hover{
     color: #E0EBF5;
     background-color: #8A00F3;
     text-decoration: underline;
     text-shadow: #170A1C -2px 2px 4px;
 }
-a:active {
+a:active{
     color: #E0EBF5;
     background-color: #8A00F3;
     text-decoration: underline;
@@ -66,25 +66,40 @@ a:active {
     height: 200px;
     justify-content: center;
 }
-.section-2 {
+.profile-pic{
+    border-radius: 20%;
+    box-shadow: #8A00F3 -2px 2px 4px;
+    outline: #170A1C 1px solid;
+}
+.section-2{
+    text-align: center;
+}
+.section-2 h2{
+    text-decoration: underline;
+}
+/*need to find how to center the bullet points*/
+/*stack exchange to the rescue*/
+/*https://stackoverflow.com/questions/28977320/how-do-i-get-the-bullets-of-an-unordered-list-to-center-with-the-text*/
+ul{
+    list-style-position: inside;
     text-align: center;
 }
 
-.about-me-container {
+.about-me-container{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
 
-.about-me-box {
+.about-me-box{
     background-color: #f0f0f0;
     padding: 20px;
     width: 40%;
     border: 1px solid #ddd;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }    
-.footer p {
+.footer p{
     background-color: #8A00F3;
     color: #E0EBF5;
     padding: 10px;
