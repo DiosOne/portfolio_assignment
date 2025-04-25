@@ -1,4 +1,4 @@
-#### <ins>Notes and ref for assignment</ins>
+<!-- #### <ins>Notes and ref for assignment</ins>
 
 # <ins>Design Brief</ins>
 
@@ -20,8 +20,9 @@ ___Dark mode___
 <br><br><br>
 
 # After misunderstanding the assignment, I'll start again from here.
-<p>Ignore the above, I'm big dumb. That will still stand for my eventual portfolio page (maybe. this might end up looking more professional)</p><br>
-<p><ins>Brief design brief.</ins>
+<p>Ignore the above, I'm big dumb. That will still stand for my eventual portfolio page (maybe. this might end up looking more professional)</p><br> -->
+
+# <ins>Brief design brief.</ins>
 
 - simple page layout, links in nav to seperate pages containing relevant information
 - blue/grey/purpleish? colour scheme
@@ -37,3 +38,11 @@ ___Dark mode___
 ## I realised that my navbar would break when on mobile view so I found this
 [Pure CSS responsive navbar](https://codepen.io/jo_Geek/pen/xgbaEr)  
 and adapted it to my theme and syntax.
+
+
+# next..
+- adjust for landscape mode
+- copy correct index over to other html's
+- clarify if index is a seperate page (ie cannot contain same content as aboot me), or if index can function as aboot and link to others
+- fill in sections
+- why does the bottom get covered on chrome mobile?
