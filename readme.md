@@ -46,3 +46,5 @@ and adapted it to my theme and syntax.
 - clarify if index is a seperate page (ie cannot contain same content as aboot me), or if index can function as aboot and link to others
 - fill in sections
 - why does the bottom get covered on chrome mobile?
+
+I'll style eat food dummy a bit, and vecna too (publish for the sake of it) and then i can put them into my projects page
