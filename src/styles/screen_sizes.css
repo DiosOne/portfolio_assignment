@@ -31,3 +31,9 @@
     }
 
 }
+@media(hover:hover) and (pointer: fine){
+    .profile-pic:hover {
+      animation: rotate;
+      animation-duration: 3s;
+    }
+}

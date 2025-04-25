@@ -1,0 +1,26 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0px 0px 2px 2px #8A00F3;
+    }
+    /* 25% {
+        box-shadow: 0px 0px 10px 1px #8A00F3;
+    }     */
+    50% {
+        box-shadow: 0px 0px 20px 2px #8A00F3;
+    }
+    /* 75% {
+        box-shadow: 0px 0px 10px 1px #8A00F3;
+    } */
+    100% {
+        box-shadow: 0px 0px 2px 2px #8A00F3;
+    }
+}
