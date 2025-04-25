@@ -1,13 +1,20 @@
 @media only screen and (max-width: 600px){
-    /* body{
-        padding-bottom: 50px;
-    } */
     .header-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;    
+        align-items: center;
     }
+    .sect2-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .sect2-box-left, .sect2-box-right {
+        flex: 100%;
+        width: 90%;
+        margin: 5%;
+        padding: 0;
+        }    
     footer {
         display: flex;
         justify-content: space-around;
