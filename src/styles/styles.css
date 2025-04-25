@@ -1,12 +1,14 @@
 *{
     box-sizing: border-box;
 }
-body{
+html, body{
     margin: 0;
     padding: 0;
     background-color: #E0EBF5;
     font-family: 'jetbrains-mono-pagefont', sans-serif;
     font-size: 20px;
+    height: 100%;
+    position: relative;
 }
 
 .jetbrains-mono-pagefont{
@@ -22,7 +24,7 @@ body{
     align-items: center;
     color: #170A1C;
     text-shadow: #8a00f3a1 -2px 2px 4px;
-    font-size: larger;
+    font-size: 40px;
 }
 .section-1{
     display: flex;
@@ -57,21 +59,45 @@ ul{
     margin-top: 20px;
 }
 
-.sect2-box{
+.sect2-box-left{
     background-color: #f0f0f0;
     padding: 20px;
     width: 40%;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    flex: 50%;
+    margin-left: 5%;
+    margin-right: 2.5%;
 }    
-.footer p{
+
+.sect2-box-right{
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    flex: 50%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
     background-color: #8A00F3;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+}     
+.footer p{
+    /* background-color: #8A00F3; */
     color: #E0EBF5;
     padding: 10px;
     margin: 5px;
     border: 5px;
-    border-radius: 10px;
     text-align: center;
     font-weight: bold;
     text-shadow: -2px 2px 4px #170A1C;
