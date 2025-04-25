@@ -1,0 +1,83 @@
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 2%;
+    padding-left: 2%;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.topnav > .nav-btn {
+    display: none;
+}
+
+.topnav > .nav-links > a {
+    background-color: #170A1C;
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight:lighter ;
+      text-align: center;
+      text-decoration: none;
+      text-shadow: #feffffa9 -2px 2px 2px;
+}
+  
+.topnav > .nav-links > a:hover{
+    color: #E0EBF5;
+    background-color: #8A00F3;
+    text-decoration: underline;
+    text-shadow: #170A1C -2px 2px 4px;
+}
+  
+.topnav > #nav-check {
+    display: none;
+}
+  
+@media (max-width:600px) {
+    .topnav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 2%;
+      top: 2%;
+    }
+    .topnav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .topnav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .topnav > .nav-btn > label > span {
+      display: block;
+      width: 30px;
+      height: 15px;
+      border-top: 2px solid #8A00F3;
+    }
+    .topnav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .topnav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .topnav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .topnav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+}

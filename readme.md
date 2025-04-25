@@ -31,4 +31,9 @@ ___Dark mode___
 
 </p>
 
-[Link to my page] (https://dom-andrewartha-portfolio.netlify.app/contact)
+# [My portfolio page](https://dom-andrewartha-portfolio.netlify.app/contact)
+
+
+## I realised that my navbar would break when on mobile view so I found this
+[Pure CSS responsive navbar](https://codepen.io/jo_Geek/pen/xgbaEr)  
+and adapted it to my theme and syntax.
