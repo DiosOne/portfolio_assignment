@@ -104,6 +104,12 @@ ul{
     margin-left: 2.5%;
     margin-right: 5%;
 }
+
+.sect2-box-right p{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+}
 .sect2-box-right:hover{
     animation: expand;
     animation-duration: 30s;

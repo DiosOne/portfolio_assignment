@@ -6,18 +6,33 @@
     <title>Dom Andrewartha Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/screen_sizes.css">
+    <link rel="stylesheet" href="styles/animation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="topnav">
-            <a href="./about-me.html">About Me</a>
+    <nav class="topnav">
+        <input type="checkbox" id="nav-check">
+        <nav class="nav-header">
+        </nav>
+        <nav class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </nav>
+    
+        <nav class="nav-links">
+            <a href="./index.html">About Me</a>
             <a href="./skills.html">Skills</a>
             <a href="./projects.html">Projects</a>
             <a href="./contact.html">Contact</a>
         </nav>
+    </nav>
+    <header>
         <header class="header-content">
             <h2>Dom Andrewartha</h2>
         </header>
@@ -26,28 +41,18 @@
         <img src="styles/docs/portfolio_pic.jpg" alt="A very handsome photo of Dom Andrewartha" class="profile-pic">
     </section>
     <section class="section-2">
-        <h2>Contact Me</h2>
-        <div class="about-me-container">
-            <article class="about-me-box">
-                <h3>Enquiries</h3>
-                <p>This is where the contact form will be</p> 
-                <ul> 
-                    <li>Name</li>
-                    <li>Email</li>
-                    <li>Phone</li>
-                    <li>Enquiry</li>
-                </ul> 
+        <h2>Contact</h2> <!--change this-->
+        <div class="sect2-container">
+            <article class="sect2-box-left">
+                <h3>Contact Form</h3> <!--change this-->
+                <p>professional aboot me</p>
+                <p>fill this in</p> <!--words go here-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aut in sint quisquam excepturi suscipit magnam quod nisi veniam pariatur tempore repellendus eveniet</p>
             </article>
-            <article class="about-me-box">
-                <h3>Social Media</h3>
-                <ul>
-                    <li><a href="https://github.com/DiosOne" target="_blank">GitHub</a></li>
-                    <li>LinkedIn</li>
-                    <li><a href="https://bsky.app/profile/dios1-dmt.bsky.social" target="_blank">Bluesky</a></li>
-                    <li>Discord</li>
-                    <li>Email</li>
-                </ul>
-                <p>Feel free to reach out to me on any of these platforms!</p>
+            <article class="sect2-box-right">
+                <h3>Socials</h3> <!--change this-->
+                <p>personal aboot me</p>
+                <p>and this</p> <!--and words go here-->
             </article>
     </section>
 
@@ -59,3 +64,5 @@
 </footer>
 </body>
 </html>
+
+  
