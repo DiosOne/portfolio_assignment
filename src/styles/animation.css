@@ -3,7 +3,7 @@
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 
@@ -22,5 +22,41 @@
     } */
     100% {
         box-shadow: 0px 0px 2px 2px #8A00F3;
+    }
+}
+@keyframes expand {
+    0% {
+        transform: scale(1);
+
+    }
+    10% {
+        transform: scale(1.12);
+    }
+    20% {
+        transform: scale(1.12);
+    }
+    30% {
+        transform: scale(1.12);
+    }
+    40% {
+        transform: scale(1.12);
+    }
+    50% {
+        transform: scale(1.12);
+    }
+    60% {
+        transform: scale(1.12);
+    }
+    70% {
+        transform: scale(1.12);
+    }
+    80% {
+        transform: scale(1.12);
+    }
+    90% {
+        transform: scale(1.12);
+    }
+    100% {
+        transform: scale(1);
     }
 }

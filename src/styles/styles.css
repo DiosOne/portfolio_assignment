@@ -44,14 +44,15 @@ body{
 }
 .profile-pic:hover{
     animation: rotate;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 .section-2{
     text-align: center;
     padding-bottom: 50px;
 }
-.section-2 h2{
+
+.section-2 h2, .section-2 h3{
     text-decoration: underline;
 }
 /*need to find how to center the bullet points*/
@@ -80,8 +81,14 @@ ul{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     flex: 50%;
     margin-left: 5%;
-    margin-right: 2.5%;
-}    
+    margin-right: 2.5%;;
+}
+
+.sect2-box-left:hover{
+    animation: expand;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
 
 .sect2-box-right{
     display: flex;
@@ -96,6 +103,11 @@ ul{
     flex: 50%;
     margin-left: 2.5%;
     margin-right: 5%;
+}
+.sect2-box-right:hover{
+    animation: expand;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
 footer{
     display: flex;
