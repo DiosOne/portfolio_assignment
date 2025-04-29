@@ -56,6 +56,7 @@ body{
     text-decoration: underline;
 }
 /*need to find how to center the bullet points*/
+/* except it looked shite so I changed it back */
 /*stack exchange to the rescue*/
 /*https://stackoverflow.com/questions/28977320/how-do-i-get-the-bullets-of-an-unordered-list-to-center-with-the-text*/
 ul{
