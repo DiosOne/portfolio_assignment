@@ -59,7 +59,7 @@ body{
 /*stack exchange to the rescue*/
 /*https://stackoverflow.com/questions/28977320/how-do-i-get-the-bullets-of-an-unordered-list-to-center-with-the-text*/
 ul{
-    list-style-position: inside;
+    list-style-position: outside;
     text-align: center;
 }
 
@@ -68,9 +68,16 @@ ul{
     justify-content: space-around;
     margin-top: 20px;
 }
+.sect2-container a{
+    text-decoration: none;
+    color: #8A00F3;
+}
+.sect2-container a:hover{
+    text-decoration: underline;
+    color: #170A1C;
+}
 
 .sect2-box-left{
-    display: flex;
     flex-direction: column;
     justify-content: start;
     background-color: #f0f0f0;
@@ -91,7 +98,6 @@ ul{
 }
 
 .sect2-box-right{
-    display: flex;
     flex-direction: column;
     justify-content:start;
     background-color: #f0f0f0;
@@ -105,12 +111,14 @@ ul{
     margin-right: 5%;
 }
 
-.sect2-box-right p{
+/* .sect2-box-right p{
     display: flex;
     flex-direction: column;
     flex-flow: column wrap;
-}
-.sect2-box-right:hover{
+} */ 
+ /* why was this here? it does nothing */
+
+ .sect2-box-right:hover{
     animation: expand;
     animation-duration: 30s;
     animation-iteration-count: infinite;
