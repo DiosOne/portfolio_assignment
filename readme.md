@@ -30,7 +30,7 @@ ___Dark mode___
 - scratch the blue, grey, two shades of purple, black, white
 
 
-</p>
+
 
 # [My portfolio page](https://dom-andrewartha-portfolio.netlify.app/contact)
 
